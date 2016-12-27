@@ -12,7 +12,7 @@ namespace Web_Service
         {
             //var cors = new EnableCorsAttribute("http://mclient.apphb.com/", "*", "*");
             //config.EnableCors(cors);
-            config.EnableCors(new EnableCorsAttribute("http://mclient.apphb.com/","*","*"));
+            //config.EnableCors(new EnableCorsAttribute("http://mclient.apphb.com/","*","*"));
             //config.EnableCors(new EnableCorsAttribute("http://localhost:1188", "*", "*"));
 
             config.Routes.MapHttpRoute(
